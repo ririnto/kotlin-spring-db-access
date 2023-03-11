@@ -1,0 +1,13 @@
+logging:
+  level:
+    io:
+      r2dbc:
+        postgresql:
+          QUERY: DEBUG
+
+spring:
+  r2dbc:
+    name: postgres
+    password: password
+    username: postgres
+    url: r2dbc:postgresql://localhost:5432/postgres
